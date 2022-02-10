@@ -39,8 +39,13 @@ function retval = ArraysMatrix ()
   onesMatrix = ones(4,4);
   onesMatrix
   
-  zerosMatrix = zeros(3,3)
+  zerosMatrix = zeros(3,3);
   zeros
   
-
+  eyeMatrix = eye(5,7);
+  eyeMatrix
+  
+  randomMatrix = rand(4,6);
+  randomMatrix
+ 
 endfunction

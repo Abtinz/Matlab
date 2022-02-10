@@ -23,8 +23,17 @@
 ## Created: 2022-02-10
 
 function retval = Loop (firstRange, ScondRange)
-  printf("first loop: ")
- for number = 1:firstRange
+  function retval = Loop (forRange, whileRange)
+ printf("for loop: ")
+ for number = 1:forRange
             printf("%d ",number)
           endfor
+         
+printf("\n") 
+number = 0;
+printf("while loop: ")
+  while (number < whileRange)
+            printf("%d ",number++)
+          endwhile
+          
 endfunction

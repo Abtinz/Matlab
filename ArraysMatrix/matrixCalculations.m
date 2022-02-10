@@ -24,10 +24,19 @@
 
 function retval = matrixCalculations ()
   
-  onesMatrix = ones(4,4);
-  onesMatrix
+  newMatrix = rand(3,4);
+  newMatrix
   
-  zerosMatrix = zeros(3,3)
-  zeros
+  printf("Multipaction:\n")
+  newMatrix = newMatrix *10 ;
+  newMatrix
+  
+  printf("floor Matrix:\n")
+  floorMatrix = floor(newMatrix);
+  floorMatrix
+  
+  printf("floor Matrix:\n")
+  ceilMatrix = ceil(newMatrix);
+  ceilMatrix
 
 endfunction

@@ -36,16 +36,27 @@ function retval = ArraysMatrix ()
   printf("Matrix row counts: %d\n",x);
   printf("Matrix column counts: %d\n",y);
   
+  printf("ones Matrix:\n");
   onesMatrix = ones(4,4);
   onesMatrix
   
+  printf("zeros Matrix:\n");
   zerosMatrix = zeros(3,3);
   zeros
   
+  printf("eye Matrix:\n");
   eyeMatrix = eye(5,7);
   eyeMatrix
   
+  printf("random Matrix:\n");
   randomMatrix = rand(4,6);
   randomMatrix
+  
+  printf("magic Matrix:\n");
+  magicMatrix = magic(5);
+  magicMatrix
+  
+  
+  
  
 endfunction

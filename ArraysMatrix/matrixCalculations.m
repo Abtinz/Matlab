@@ -48,4 +48,6 @@ function retval = matrixCalculations ()
   MatrixMultipaction = secondMatrix .* firstMatrix
   PowMatrix = firstMatrix ^ 3
   
+  determinanMatrix = det(firstMatrix)
+  
 endfunction

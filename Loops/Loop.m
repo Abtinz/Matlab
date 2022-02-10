@@ -23,7 +23,7 @@
 ## Created: 2022-02-10
 
 function retval = Loop (firstRange, ScondRange)
-  function retval = Loop (forRange, whileRange)
+
  printf("for loop: ")
  for number = 1:forRange
             printf("%d ",number)

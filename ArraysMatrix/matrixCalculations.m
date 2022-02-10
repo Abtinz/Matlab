@@ -38,5 +38,14 @@ function retval = matrixCalculations ()
   printf("floor Matrix:\n")
   ceilMatrix = ceil(newMatrix);
   ceilMatrix
-
+  
+  #two matrix calculations
+  
+  firstMatrix = rand(3,3)
+  secondMatrix = rand(3,3)
+  
+  simpleMultipaction = secondMatrix * firstMatrix
+  MatrixMultipaction = secondMatrix .* firstMatrix
+  PowMatrix = firstMatrix ^ 3
+  
 endfunction

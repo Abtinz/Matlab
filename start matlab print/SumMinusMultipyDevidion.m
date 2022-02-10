@@ -14,7 +14,7 @@
 ## along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 ## -*- texinfo -*-
-## @deftypefn {} {@var{retval} =} printfFunc (@var{input1}, @var{input2})
+## @deftypefn {} {@var{retval} =} SumMinusMultipyDevidion (@var{input1}, @var{input2})
 ##
 ## @seealso{}
 ## @end deftypefn
@@ -22,11 +22,15 @@
 ## Author: ABTIN <ABTIN@HMD>
 ## Created: 2022-02-10
 
-function retval = printfFunc (firstNumber,secondNumber)
+function retval = SumMinusMultipyDevidion (firstNumber,secondNumber)
   
-  printf("firstNumber: %d",firstNumber)
+  printf("\nsum: %d",firstNumber+secondNumber)
   printf("\n")
-  printf("secondNumber: %d",secondNumber)
-  SumMinusMultipyDevidion (firstNumber,secondNumber)
+  printf("minus: %d",firstNumber-secondNumber)
+  printf("\n")
+  printf("mutipactionr: %d",firstNumber*secondNumber)
+  printf("\n")
+  printf("devision: %d",firstNumber/secondNumber)
+  printf("\n")
 
 endfunction

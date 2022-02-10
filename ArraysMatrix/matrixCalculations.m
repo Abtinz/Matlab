@@ -14,7 +14,7 @@
 ## along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 ## -*- texinfo -*-
-## @deftypefn {} {@var{retval} =} ArraysMatrix (@var{input1}, @var{input2})
+## @deftypefn {} {@var{retval} =} matrixCalculations (@var{input1}, @var{input2})
 ##
 ## @seealso{}
 ## @end deftypefn
@@ -22,25 +22,12 @@
 ## Author: ABTIN <ABTIN@HMD>
 ## Created: 2022-02-10
 
-function retval = ArraysMatrix ()
-  
-  array = [1,2,3,4,5];
-  array
-  
-  #length
-  printf("length array: %d\n",length(array));
-  
-  Matrix2X4 = [1,2,3,4;5,6,7,8];
-  Matrix2X4
-  [x,y] = size(Matrix2X4)
-  printf("Matrix row counts: %d\n",x);
-  printf("Matrix column counts: %d\n",y);
+function retval = matrixCalculations ()
   
   onesMatrix = ones(4,4);
   onesMatrix
   
   zerosMatrix = zeros(3,3)
   zeros
-  
 
 endfunction

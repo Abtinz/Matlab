@@ -27,7 +27,15 @@ function retval = ArraysMatrix ()
   array = [1,2,3,4,5];
   array
   
+  #length
+  printf("length array: %d\n",length(array));
+  
   Matrix2X4 = [1,2,3,4;5,6,7,8];
   Matrix2X4
+  [x,y] = size(Matrix2X4)
+  printf("Matrix row counts: %d\n",x);
+  printf("Matrix column counts: %d\n",y);
+  
+  
 
 endfunction

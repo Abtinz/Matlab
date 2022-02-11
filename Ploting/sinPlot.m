@@ -25,19 +25,23 @@
 function retval = sinPlot ()
 
     
-     x  = (-5:1:5)  #input
+     x  = (-5:0.1:5)  #input
      
      ySin = sin(x)
      yCos = cos(x)
      figure
      
+     #stem --> Discrete Signals
      subplot(4,2,1)
      stem(x,ySin)
-     
      subplot(4,2,2)
      stem(x,yCos)
      
-     
+     #plot --> Continous Signals
+     subplot(4,2,3)
+     plot(x,ySin)
+     subplot(4,2,4)
+     plot(x,ycos)
      
      
 endfunction

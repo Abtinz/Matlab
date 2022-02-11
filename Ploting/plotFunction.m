@@ -27,10 +27,15 @@ function retval = plotFunction ()
   x = [1,2,5,6,-1,0]
   fx = rand(6,1)*10
   
+  #build figure 
   figure;
   subplot(4,2,1)
-  
+
+  #plot show 
   stem(fx , x)
+  title "First Figure"
+  ylabel "F(x)"
+  xlabel "X"
   
 
 endfunction
